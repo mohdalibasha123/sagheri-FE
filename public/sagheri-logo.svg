@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">IBCLC Bayan Al-Qadamani logo</title>
+  <desc id="desc">A warm gold mother and baby line mark with soft botanical details and IBCLC Bayan Al-Qadamani text.</desc>
+  <rect width="500" height="500" fill="#FDFBF5"/>
+  <g transform="translate(93 72)">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M151 24c-34 1-58 23-57 51 1 17 12 26 29 28-17-15-15-40 5-55 16-12 38-14 58-8 34 10 50 39 46 67-5 36-37 58-68 77-29 17-55 35-63 69-8-44 2-78 25-105 20-24 47-37 71-55" stroke="#A1844F" stroke-width="12"/>
+      <path d="M211 34c-38-7-75 3-102 28-28 27-39 63-28 102 8 30 30 56 57 75 24 17 51 30 77 43 33 16 62 35 78 65" stroke="#A1844F" stroke-width="12"/>
+      <path d="M195 78c-25 11-40 30-42 53-3 30 16 51 45 55 33 5 63-15 73-48" stroke="#A1844F" stroke-width="10"/>
+      <path d="M101 177c-36 11-61 35-64 65-4 39 27 72 76 91 27 10 55 17 79 32" stroke="#A1844F" stroke-width="11"/>
+      <path d="M232 121c24 38 20 82-9 112-20 21-48 32-77 47-24 12-42 28-51 52" stroke="#A1844F" stroke-width="10"/>
+      <path d="M214 177c35 11 64 33 82 66 16 30 21 64 11 99" stroke="#A1844F" stroke-width="10"/>
+      <path d="M83 247c11 39 35 71 74 93 27 16 62 25 95 35" stroke="#A1844F" stroke-width="10"/>
+
+      <path d="M151 119c-11 18-14 39-8 61" stroke="#7FB8C0" stroke-width="5"/>
+      <path d="M157 119c10 14 12 29 5 45" stroke="#7FB8C0" stroke-width="5"/>
+      <path d="M118 151c-17 12-27 27-30 45" stroke="#D7869E" stroke-width="5"/>
+      <path d="M132 154c-22 4-38 13-49 29" stroke="#D7869E" stroke-width="5"/>
+      <path d="M193 154c-7 25-5 48 6 67" stroke="#D7869E" stroke-width="5"/>
+      <path d="M205 150c15 14 23 30 23 49" stroke="#D7869E" stroke-width="5"/>
+      <path d="M245 176c19-16 39-24 60-23" stroke="#99C7CC" stroke-width="5"/>
+      <path d="M248 191c20-2 37 4 52 17" stroke="#99C7CC" stroke-width="5"/>
+      <path d="M78 235c-24-10-42-25-55-45" stroke="#D7869E" stroke-width="5"/>
+      <path d="M72 253c-22 0-41 7-58 21" stroke="#F0A55F" stroke-width="5"/>
+      <path d="M248 251c19-9 39-12 61-7" stroke="#F0A55F" stroke-width="5"/>
+      <path d="M224 291c17 8 29 22 36 41" stroke="#7FB8C0" stroke-width="5"/>
+
+      <path d="M100 116c-14-3-27-12-38-25 18-1 32 6 42 19" stroke="#D7869E" stroke-width="5"/>
+      <path d="M66 160c-14 8-28 10-43 6 12-13 27-18 45-14" stroke="#99C7CC" stroke-width="5"/>
+      <path d="M273 132c12-12 26-19 44-20-9 17-22 27-40 31" stroke="#99C7CC" stroke-width="5"/>
+      <path d="M274 217c17-3 32 1 46 12-17 6-33 4-48-5" stroke="#D7869E" stroke-width="5"/>
+      <path d="M126 294c-17 2-32-3-45-14 17-6 33-4 48 6" stroke="#F0A55F" stroke-width="5"/>
+    </g>
+
+    <g fill="#A1844F" font-family="Georgia, 'Times New Roman', serif" font-style="italic" text-anchor="middle">
+      <text x="158" y="328" font-size="39" font-weight="600">IBCLC</text>
+      <text x="158" y="365" font-size="36">Bayan Al-Qadamani</text>
+    </g>
+  </g>
+</svg>

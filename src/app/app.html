@@ -1,0 +1,265 @@
+<main class="site-shell" id="home" [attr.dir]="copy().dir" [attr.lang]="copy().htmlLang">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <span class="page-floral page-floral-top" aria-hidden="true"></span>
+  <span class="page-floral page-floral-bottom" aria-hidden="true"></span>
+  <header class="topbar" aria-label="التنقل الرئيسي">
+    <a class="brand" href="#home" [attr.aria-label]="copy().brand">
+      <img class="brand-logo" src="sagheri-logo.png" alt="" aria-hidden="true" />
+      <span>
+        <strong>{{ copy().brand }}</strong>
+        <small>{{ copy().brandSubtitle }}</small>
+      </span>
+    </a>
+
+    <nav class="desktop-menu" aria-label="Page links">
+      @for (item of copy().navItems; track item.label) {
+        <a [href]="item.href">{{ item.label }}</a>
+      }
+    </nav>
+
+    <div class="top-actions">
+      <button class="language-toggle" type="button" (click)="toggleLanguage()">
+        {{ copy().switchLabel }}
+      </button>
+      <a class="btn btn-primary compact" href="#courses">{{ copy().ctaNow }}</a>
+    </div>
+  </header>
+
+  <nav class="floating-nav" aria-label="Quick navigation">
+    @for (item of copy().navItems; track item.label) {
+      <a [href]="item.href">
+        <span aria-hidden="true">{{ item.icon }}</span>
+        {{ item.label }}
+      </a>
+    }
+  </nav>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    @for (item of copy().navItems.slice(0, 5); track item.label) {
+      <a [href]="item.href">
+        <span aria-hidden="true">{{ item.icon }}</span>
+        {{ item.label }}
+      </a>
+    }
+  </nav>
+
+  <section class="hero section-grid" id="main-content" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <img class="hero-logo" src="sagheri-logo.png" alt="" aria-hidden="true" />
+      <p class="eyebrow">{{ copy().heroEyebrow }}</p>
+      <h1 id="hero-title">{{ copy().heroTitle }}</h1>
+      <p>{{ copy().heroText }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#courses">{{ copy().coursesCta }}</a>
+        <a class="btn btn-secondary" href="#specialists">{{ copy().consultCta }}</a>
+      </div>
+      <div class="badge-row" aria-label="مميزات صغيري">
+        @for (badge of copy().badges; track badge) {
+          <span>{{ badge }}</span>
+        }
+      </div>
+      <dl class="trust-row" aria-label="Site trust details">
+        <div>
+          <dt>IBCLC</dt>
+          <dd>{{ copy().heroProfileName }}</dd>
+        </div>
+        <div>
+          <dt>150</dt>
+          <dd>{{ copy().priceValue }}</dd>
+        </div>
+        <div>
+          <dt>5/5</dt>
+          <dd>{{ copy().ratingLabel }}</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hero-visual" aria-label="لمحة عن تجربة صغيري">
+      <article class="profile-card visual-card">
+        <div class="avatar portrait-one" aria-hidden="true"></div>
+        <h2>{{ copy().heroProfileName }}</h2>
+        <p>{{ copy().heroProfileTitle }}</p>
+        <span>{{ copy().heroProfileNote }}</span>
+      </article>
+      <article class="mini-course visual-card">
+        <div class="video-art prep" aria-hidden="true">
+          <span class="play">▶</span>
+        </div>
+        <h3>{{ copy().heroCourseTitle }}</h3>
+        <p>{{ copy().heroCourseText }}</p>
+      </article>
+      <article class="booking-card visual-card">
+        <strong>{{ copy().bookingPrompt }}</strong>
+        <div class="method-stack" aria-hidden="true">
+          <span>{{ copy().video }}</span>
+          <span>{{ copy().voice }}</span>
+          <span>Chat</span>
+        </div>
+        <div class="slot-row"><span>{{ copy().video }}</span><b>9:00</b><b>19:30</b></div>
+        <div class="slot-row"><span>{{ copy().voice }}</span><b>11:00</b><b>20:00</b></div>
+        <div class="mini-calendar" aria-hidden="true">
+          <span>2026</span>
+          <b>9:00</b>
+          <b>19:30</b>
+          <b>20:00</b>
+        </div>
+        <a class="btn btn-primary compact" href="#specialists">{{ copy().bookNow }}</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="about-section page-section" id="about" aria-labelledby="about-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ copy().aboutEyebrow }}</p>
+      <h2 id="about-title">{{ copy().aboutTitle }}</h2>
+      <p>{{ copy().aboutText }}</p>
+    </div>
+    <div class="feature-grid">
+      @for (feature of copy().features; track feature.title) {
+        <article class="soft-card feature-card">
+          <span aria-hidden="true">✦</span>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.text }}</p>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="page-section" id="specialists" aria-labelledby="specialists-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ copy().specialistsEyebrow }}</p>
+      <h2 id="specialists-title">{{ copy().specialistsTitle }}</h2>
+      <p>{{ copy().specialistsText }}</p>
+    </div>
+    <div class="specialist-grid">
+      @for (specialist of copy().specialists; track specialist.name) {
+        <article class="soft-card specialist-card" [class.teal-card]="specialist.theme === 'secondary'">
+          <div class="avatar" [class.portrait-two]="specialist.theme === 'secondary'" aria-hidden="true"></div>
+          <h3>{{ specialist.name }}</h3>
+          <strong>{{ specialist.title }}</strong>
+          <p>{{ specialist.description }}</p>
+          <div class="specialist-tags" aria-hidden="true">
+            <span>IBCLC</span>
+            <span>90 min</span>
+            <span>{{ copy().priceValue }}</span>
+          </div>
+          <a class="btn" [class.btn-secondary]="specialist.theme === 'secondary'" [class.btn-primary]="specialist.theme !== 'secondary'" href="#contact">
+            {{ specialist.action }}
+          </a>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="page-section" id="courses" aria-labelledby="courses-title">
+    <div class="section-heading align-start">
+      <p class="eyebrow">{{ copy().coursesEyebrow }}</p>
+      <h2 id="courses-title">{{ copy().coursesTitle }}</h2>
+      <p>{{ copy().coursesText }}</p>
+    </div>
+    <div class="course-grid">
+      @for (course of copy().courses; track course.title) {
+        <article class="soft-card course-card">
+          <div class="video-art {{ course.illustration }}" aria-hidden="true">
+            <span class="play">▶</span>
+          </div>
+          <div class="course-body">
+            <h3>{{ course.title }}</h3>
+            <p>{{ course.description }}</p>
+            <dl class="meta-row">
+              <div><dt>{{ copy().duration }}</dt><dd>{{ course.duration }}</dd></div>
+              <div><dt>{{ copy().lessons }}</dt><dd>{{ course.lessons }}</dd></div>
+              <div><dt>{{ copy().price }}</dt><dd>{{ copy().priceValue }}</dd></div>
+            </dl>
+            <div class="rating" [attr.aria-label]="copy().ratingLabel">★★★★★</div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="#contact">{{ copy().ctaNow }}</a>
+              <a class="outline-link" href="#faq">{{ copy().viewCourse }}</a>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="consultation-strip" aria-labelledby="booking-title">
+    <div>
+      <p class="eyebrow">{{ copy().bookingEyebrow }}</p>
+      <h2 id="booking-title">{{ copy().bookingTitle }}</h2>
+      <p>{{ copy().bookingText }}</p>
+    </div>
+    <div class="type-list" aria-label="أنواع الاستشارة">
+      @for (type of copy().consultationTypes; track type) {
+        <span>{{ type }}</span>
+      }
+    </div>
+    <a class="btn btn-consultation" href="#contact">{{ copy().bookNow }}</a>
+  </section>
+
+  <section class="page-section faq-layout" id="faq" aria-labelledby="faq-title">
+    <div class="section-heading align-start">
+      <p class="eyebrow">{{ copy().faqEyebrow }}</p>
+      <h2 id="faq-title">{{ copy().faqTitle }}</h2>
+    </div>
+    <div class="faq-list">
+      @for (faq of copy().faqs; track faq.question; let first = $first) {
+        <details class="faq-item" [open]="first">
+          <summary>{{ faq.question }}</summary>
+          <p>{{ faq.answer }}</p>
+        </details>
+      }
+    </div>
+  </section>
+
+  <section class="page-section" aria-labelledby="reviews-title">
+    <div class="section-heading">
+      <p class="eyebrow">{{ copy().reviewsEyebrow }}</p>
+      <h2 id="reviews-title">{{ copy().reviewsTitle }}</h2>
+    </div>
+    <div class="review-grid">
+      @for (review of copy().reviews; track review.name) {
+        <figure class="soft-card review-card">
+          <blockquote>“{{ review.text }}”</blockquote>
+          <figcaption>{{ review.name }}</figcaption>
+        </figure>
+      }
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact" aria-labelledby="contact-title">
+    <div>
+      <p class="eyebrow">{{ copy().contactEyebrow }}</p>
+      <h2 id="contact-title">{{ copy().contactTitle }}</h2>
+      <p>{{ copy().contactText }}</p>
+    </div>
+    <form class="contact-form" aria-label="نموذج التواصل">
+      <label>
+        {{ copy().nameLabel }}
+        <input type="text" name="name" [placeholder]="copy().namePlaceholder" autocomplete="name" required />
+      </label>
+      <label>
+        {{ copy().emailLabel }}
+        <input type="email" name="email" placeholder="name@example.com" dir="ltr" autocomplete="email" required />
+      </label>
+      <label>
+        {{ copy().phoneLabel }}
+        <input type="tel" name="phone" placeholder="+962 7X XXX XXXX" dir="ltr" autocomplete="tel" required />
+      </label>
+      <label>
+        {{ copy().messageLabel }}
+        <textarea rows="4" name="message" [placeholder]="copy().messagePlaceholder" required></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">{{ copy().send }}</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <span class="footer-brand">
+      <img src="sagheri-logo.png" alt="" aria-hidden="true" />
+      <strong>{{ copy().brand }}</strong>
+    </span>
+    <span>{{ copy().footer }}</span>
+  </footer>
+
+  <router-outlet />
+</main>
