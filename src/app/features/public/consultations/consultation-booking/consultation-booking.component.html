@@ -1,0 +1,75 @@
+@if (submitted()) {
+  <div class="success-screen">
+    <div class="success-card">
+      <div class="success-icon">✓</div>
+      <h2>{{ t('تم إرسال طلب الحجز', 'Booking request sent') }}</h2>
+      <p>{{ t('سيتواصل معك فريق صغيري لتأكيد الموعد.', 'The Sagheri team will contact you to confirm the appointment.') }}</p>
+      <a routerLink="/" class="btn-home">{{ t('العودة للرئيسية', 'Back home') }}</a>
+    </div>
+  </div>
+} @else {
+  <div class="booking-page">
+    <div class="container">
+      <div class="page-header">
+        <h1>{{ t('احجزي استشارتك', 'Book Your Consultation') }}</h1>
+        <p>{{ t('اختاري نوع الاستشارة والموعد المناسب لك', 'Choose the consultation type and suitable time') }}</p>
+      </div>
+      <div class="booking-layout">
+        <div class="booking-options">
+          <div class="sp-card">
+            <div class="sp-avatar">{{ (specialist?.nameAr || specialist?.nameEn || 'S').charAt(0) }}</div>
+            <div class="sp-info">
+              <h3>{{ t(specialist?.nameAr || '', specialist?.nameEn || specialist?.nameAr || '') }}</h3>
+              <p>{{ t(specialist?.titleAr || '', specialist?.titleEn || specialist?.titleAr || '') }}</p>
+            </div>
+          </div>
+          <div class="booking-section">
+            <p class="section-label">{{ t('نوع الاستشارة', 'Consultation type') }}</p>
+            <div class="type-list">
+              @for (type of types; track type.id) {
+                <button class="type-btn" [class.selected]="selectedType() === type.id" (click)="selectedType.set(type.id)">
+                  <span class="type-name">{{ t(type.label, type.labelEn) }}</span>
+                  <span class="type-price">{{ type.price }} JOD</span>
+                </button>
+              }
+            </div>
+          </div>
+          <div class="booking-section">
+            <p class="section-label">{{ t('اختاري اليوم', 'Choose day') }}</p>
+            <div class="date-list">
+              @for (day of calendarDays; track day.date) {
+                <button class="date-btn" [class.selected]="selectedDate() === day.date" (click)="selectedDate.set(day.date); selectedSlot.set('')">
+                  <span class="day-label">{{ t(day.label, day.labelEn) }}</span>
+                  <span class="day-num">{{ day.date.slice(-2) }}</span>
+                </button>
+              }
+            </div>
+          </div>
+          @if (selectedDate()) {
+            <div class="booking-section">
+              <p class="section-label">{{ t('اختاري الوقت', 'Choose time') }}</p>
+              <div class="slots-grid">
+                @for (slot of selectedDaySlots; track slot) {
+                  <button class="slot-btn" [class.selected]="selectedSlot() === slot" (click)="selectedSlot.set(slot)">{{ slot }}</button>
+                }
+              </div>
+            </div>
+          }
+        </div>
+        <div class="form-card">
+          <h2 class="form-title">{{ t('بيانات الحجز', 'Booking details') }}</h2>
+          <form class="booking-form" (ngSubmit)="submitBooking()">
+            <div class="form-row">
+              <label class="form-field">{{ t('الاسم الأول', 'First name') }}<input [(ngModel)]="form.firstName" name="firstName" required /></label>
+              <label class="form-field">{{ t('اسم العائلة', 'Last name') }}<input [(ngModel)]="form.lastName" name="lastName" required /></label>
+            </div>
+            <label class="form-field">{{ t('البريد الإلكتروني', 'Email') }}<input type="email" [(ngModel)]="form.email" name="email" required /></label>
+            <label class="form-field">{{ t('رقم الهاتف', 'Phone') }}<input type="tel" [(ngModel)]="form.phone" name="phone" required /></label>
+            <label class="form-field">{{ t('وصف السؤال', 'Question description') }}<textarea [(ngModel)]="form.problem" name="problem" rows="4"></textarea></label>
+            <button type="submit" class="btn-submit">{{ t('تأكيد الحجز', 'Confirm Booking') }}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+}

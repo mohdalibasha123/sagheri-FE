@@ -1,4 +1,4 @@
-# SagheriFE
+# SagheriFe
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
 
@@ -7,10 +7,27 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+`npm start` uses `src/environments/environment.local.ts`, which replaces
+`environment.ts` entirely. Local API requests use `/api/v1`; `proxy.conf.json`
+forwards them to `http://localhost:8080`. Restart the development server after
+changing the proxy configuration. Local `ng serve` also loads this proxy.
+
+Public content loads from `GET /api/v1/cms/static-content-snapshot`. The service
+caches the snapshot in memory and shares it across pages, so navigating to courses
+or specialists does not necessarily send another request. Reload with DevTools
+Network open and filter by `static-content-snapshot` to see the initial request.
+The browser shows the frontend origin for proxied requests; the proxy contacts
+the backend from the development server.
+
+`enableContentFallbackJson: false` in the active environment prevents requests
+to `assets/content-fallback.json` when the API fails. It does not hide template
+labels or other text written directly in HTML. The About page and some public
+section descriptions still contain template copy independent of the content API.
 
 ## Code scaffolding
 

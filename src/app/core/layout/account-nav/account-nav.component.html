@@ -1,0 +1,35 @@
+<button #trigger type="button" class="account-trigger" [class.is-open]="open()"
+  [attr.aria-expanded]="open()" [attr.aria-controls]="controlId()"
+  [attr.aria-label]="text('حسابي', 'Account') + (displayName() ? ': ' + displayName() : '')"
+  [title]="label()" (click)="open.set(!open())">
+  <svg lucideUserRound [size]="22" aria-hidden="true"></svg>
+  <span class="account-label" dir="auto">{{ label() }}</span>
+</button>
+
+@if (open()) {
+  <div class="account-panel" [id]="controlId()" role="region" [attr.aria-label]="text('حسابي', 'Account')">
+    @if (authState.isAuthenticated()) {
+      <div class="account-summary">
+        <strong dir="auto">{{ displayName() }}</strong>
+      </div>
+      <a [routerLink]="authState.isAdmin() ? '/admin/dashboard' : '/user/dashboard'" (click)="close()">
+        <svg lucideUserRound [size]="18" aria-hidden="true"></svg>
+        {{ text('حسابي', 'My account') }}
+      </a>
+      <a routerLink="/user/profile" (click)="close()">{{ text('الملف الشخصي', 'Profile') }}</a>
+      <button type="button" class="logout" (click)="logout()">
+        <svg lucideLogOut [size]="18" aria-hidden="true"></svg>
+        {{ text('تسجيل الخروج', 'Log out') }}
+      </button>
+    } @else {
+      <a routerLink="/auth/login" (click)="close()">
+        <svg lucideLogIn [size]="18" aria-hidden="true"></svg>
+        {{ text('تسجيل الدخول', 'Sign in') }}
+      </a>
+      <a routerLink="/auth/register" (click)="close()">
+        <svg lucideUserPlus [size]="18" aria-hidden="true"></svg>
+        {{ text('إنشاء حساب', 'Create account') }}
+      </a>
+    }
+  </div>
+}

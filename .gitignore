@@ -10,7 +10,6 @@
 /node_modules
 npm-debug.log
 yarn-error.log
-.angular-dev-server*.log
 
 # IDEs and editors
 .idea/

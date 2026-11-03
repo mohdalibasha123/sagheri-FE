@@ -1,0 +1,87 @@
+.sagheri-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 15px;
+  transition: opacity 0.2s, transform 0.15s;
+  min-height: 44px;
+  cursor: pointer;
+  border: none;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:not(:disabled):hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  &:not(:disabled):active {
+    transform: translateY(0);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--sagheri-primary);
+    outline-offset: 2px;
+  }
+}
+
+.sagheri-btn-primary {
+  @extend .sagheri-btn;
+  background: linear-gradient(180deg, #c98148 0%, #ad6f5f 100%);
+  color: var(--sagheri-white);
+  box-shadow: var(--shadow-button);
+}
+
+.sagheri-btn-secondary {
+  @extend .sagheri-btn;
+  background: var(--sagheri-secondary);
+  color: var(--sagheri-white);
+}
+
+.sagheri-btn-course {
+  @extend .sagheri-btn;
+  background: var(--sagheri-course);
+  color: var(--sagheri-white);
+}
+
+.sagheri-btn-consultation {
+  @extend .sagheri-btn;
+  background: var(--sagheri-consultation);
+  color: var(--sagheri-white);
+}
+
+.sagheri-btn-outline {
+  @extend .sagheri-btn;
+  background: transparent;
+  color: var(--sagheri-primary);
+  border: 2px solid var(--sagheri-primary);
+}
+
+.sagheri-btn-ghost {
+  @extend .sagheri-btn;
+  background: transparent;
+  color: var(--sagheri-muted);
+
+  &:hover {
+    background: var(--sagheri-border);
+  }
+}
+
+.sagheri-btn-sm {
+  padding: 8px 16px;
+  font-size: 13px;
+  min-height: 36px;
+}
+
+.sagheri-btn-lg {
+  padding: 16px 32px;
+  font-size: 17px;
+  min-height: 52px;
+}

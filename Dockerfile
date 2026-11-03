@@ -1,6 +1,5 @@
-# syntax=docker/dockerfile:1
-
-FROM node:24-alpine AS build
+# Stage 1: Build Angular app
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
@@ -8,16 +7,15 @@ COPY package*.json ./
 RUN npm ci
 
 COPY . .
-RUN npm run build
+RUN npm run build:prod
 
-FROM nginx:1.27-alpine AS runtime
+# Stage 2: Serve with Nginx
+FROM nginx:1.27-alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=build /app/dist/sagheri-FE/browser /usr/share/nginx/html
+
+COPY --from=build /app/dist/sagheri-fe/browser /usr/share/nginx/html/
 
 EXPOSE 80
-
-HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-  CMD wget -qO- http://127.0.0.1/ >/dev/null || exit 1
 
 CMD ["nginx", "-g", "daemon off;"]

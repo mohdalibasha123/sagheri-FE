@@ -1,0 +1,141 @@
+<section class="hero" aria-labelledby="home-title">
+  <div class="hero-copy">
+    <img class="hero-logo" src="sagheri-logo.png" [alt]="text('شعار صغيري', 'Sagheri logo')" />
+    <p class="eyebrow">{{ text(hero.eyebrow, hero.eyebrowEn) }}</p>
+    <h1 id="home-title">{{ text(hero.headline, hero.headlineEn) }}</h1>
+    <p class="hero-text">
+      {{ text(hero.subtitle, hero.subtitleEn) }}
+    </p>
+    <div class="hero-actions">
+      <a routerLink="/courses" class="btn primary">{{ text(hero.ctaPrimary, hero.ctaPrimaryEn) }}</a>
+      <a routerLink="/specialists" class="btn secondary">{{ text(hero.ctaSecondary, hero.ctaSecondaryEn) }}</a>
+    </div>
+  </div>
+
+  <div class="hero-panel" [attr.aria-label]="text('ملخص خدمات صغيري', 'Sagheri service summary')">
+    <div class="panel-card main-card">
+      <span class="card-label">{{ text('استشارة قريبة', 'Specialist support') }}</span>
+      <strong>{{ text('رضاعة طبيعية، تغذية، وتعاف بعد الولادة', 'Breastfeeding, nutrition, and postpartum recovery') }}</strong>
+      <p>{{ text('جلسات فردية مع مختصات يفهمن احتياج الأم في كل مرحلة.', 'One-to-one sessions with specialists who understand each stage of motherhood.') }}</p>
+    </div>
+    <div class="panel-grid">
+      @for (stat of stats; track $index) {
+        <div class="stat-card">
+          <strong>{{ stat.value }}</strong>
+          <span>{{ text(stat.label, stat.labelEn) }}</span>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section specialists">
+  <div class="section-head">
+    <p class="eyebrow">{{ text('الدعم المتخصص', 'Specialist support') }}</p>
+    <h2>{{ text('أخصائياتنا', 'Our Specialists') }}</h2>
+    <p>{{ text('فريق من المختصات لدعمك في الرضاعة، الحمل، والتعافي بعد الولادة.', 'Specialists supporting breastfeeding, pregnancy, and postpartum recovery.') }}</p>
+  </div>
+
+  <div class="specialist-grid">
+    @for (sp of specialists; track sp.id) {
+      <article class="specialist-card">
+        <div class="avatar" [style.background]="sp.color">{{ sp.initial }}</div>
+        <h3>{{ text(sp.name, sp.nameEn) }}</h3>
+        <p class="role">{{ text(sp.role, sp.roleEn) }}</p>
+        <p>{{ text(sp.bio, sp.bioEn) }}</p>
+        <div class="tags">
+          @for (tag of (isEnglish() ? sp.tagsEn : sp.tags); track tag) {
+            <span>{{ tag }}</span>
+          }
+        </div>
+        <a [routerLink]="['/consultations/book', sp.id]" class="card-action">{{ text('احجزي موعدك', 'Book your appointment') }}</a>
+        <a [routerLink]="['/specialists', sp.id]" class="profile-link">{{ text('عرض الملف الشخصي', 'View profile') }}</a>
+      </article>
+    }
+  </div>
+</section>
+
+<section class="section courses">
+  <div class="section-head">
+    <p class="eyebrow">{{ text('تعلم عملي وواضح', 'Clear practical learning') }}</p>
+    <h2>{{ text('كورسات صغيري', 'Sagheri Courses') }}</h2>
+    <p>{{ text('برامج تعليمية مركزة للأمهات قبل الحمل وخلاله وبعد الولادة.', 'Focused learning programs for mothers before, during, and after pregnancy.') }}</p>
+  </div>
+
+  <div class="course-grid">
+    @for (course of courses; track course.slug) {
+      <article class="course-card">
+        <div class="course-media" [style.background]="course.gradient">
+          <span>{{ text(course.badge, course.badgeEn) }}</span>
+          <div class="play" aria-hidden="true"></div>
+        </div>
+        <div class="course-body">
+          <h3>{{ text(course.title, course.titleEn) }}</h3>
+          <p>{{ text(course.description, course.descriptionEn) }}</p>
+          <div class="meta">
+            <span>{{ text(course.duration, course.durationEn) }}</span>
+            <span>{{ course.lessons }} {{ text('دروس', 'lessons') }}</span>
+          </div>
+          <div class="price">
+            <strong>{{ course.price }}</strong>
+            <span>{{ text(course.currency, course.currencyEn) }}</span>
+          </div>
+          <a [routerLink]="['/courses', course.slug]" class="btn primary full">{{ text('اشتركي الآن', 'Subscribe Now') }}</a>
+          <a [routerLink]="['/courses', course.slug]" class="text-link">{{ text('عرض محتوى الكورس', 'View course content') }}</a>
+        </div>
+      </article>
+    }
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="section-head">
+    <p class="eyebrow">{{ text('تجارب الأمهات', 'Mother stories') }}</p>
+    <h2>{{ text('آراء وثقة من أمهات مثلك', 'Trusted by mothers like you') }}</h2>
+  </div>
+
+  <div class="review-grid">
+    @for (review of reviews; track review.name) {
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"{{ text(review.text, review.textEn) }}"</p>
+        <strong>{{ text(review.name, review.nameEn) }}</strong>
+        <span>{{ text(review.label, review.labelEn) }}</span>
+      </article>
+    }
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="section-head">
+    <p class="eyebrow">{{ text('أسئلة مهمة', 'Helpful answers') }}</p>
+    <h2>{{ text('الأسئلة الشائعة', 'Frequently Asked Questions') }}</h2>
+    <p>{{ text('إجابات مختصرة وواضحة حول الرضاعة وتغذية الطفل ورعاية الأم.', 'Short, clear answers about breastfeeding, child nutrition, and maternal care.') }}</p>
+  </div>
+
+  <div class="faq-list">
+    @for (item of faqs; track item.q; let i = $index) {
+      <article class="faq-item" [class.open]="openFaq() === i">
+        <button type="button" (click)="toggleFaq(i)" [attr.aria-expanded]="openFaq() === i">
+          <span>{{ text(item.q, item.qEn) }}</span>
+          <span aria-hidden="true">⌄</span>
+        </button>
+        @if (openFaq() === i) {
+          <p>{{ text(item.a, item.aEn) }}</p>
+        }
+      </article>
+    }
+  </div>
+</section>
+
+<section class="cta">
+  <div>
+    <p class="eyebrow">{{ text('ابدئي بخطوة واضحة', 'Start with a clear step') }}</p>
+    <h2>{{ text('هل لديك سؤال؟ نحن هنا لمساعدتك', 'Have a question? We are here to help') }}</h2>
+    <p>{{ text('تواصلي معنا أو احجزي استشارة مناسبة لمرحلتك واحتياجك.', 'Contact us or book the right consultation for your stage and needs.') }}</p>
+  </div>
+  <div class="cta-actions">
+    <a routerLink="/contact" class="btn light">{{ text('تواصلي معنا', 'Contact Us') }}</a>
+    <a routerLink="/faq" class="btn outline">{{ text('الأسئلة الشائعة', 'FAQ') }}</a>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx @angular/cli version)",
+      "Bash(npx @angular/cli new sagheri-fe --directory . --style scss --standalone --strict --skip-git --package-manager npm)",
+      "Bash(npm install *)"
+    ]
+  }
+}

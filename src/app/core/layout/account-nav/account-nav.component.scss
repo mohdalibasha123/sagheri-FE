@@ -1,0 +1,91 @@
+:host { display: block; position: relative; min-width: 0; }
+
+.account-trigger {
+  width: 100%;
+  height: 76px;
+  padding: 8px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--sagheri-muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.account-label {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  width: 100%;
+  height: 28px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.account-trigger:hover, .account-trigger.is-open {
+  color: var(--sagheri-primary);
+  background: rgba(173, 111, 95, .1);
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--sagheri-secondary);
+  outline-offset: 2px;
+}
+
+.account-panel {
+  position: absolute;
+  right: calc(100% + 20px);
+  bottom: 0;
+  width: 240px;
+  padding: 8px;
+  border: 1px solid var(--sagheri-border);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  color: var(--sagheri-text);
+}
+
+.account-summary { padding: 12px; border-bottom: 1px solid var(--sagheri-border); margin-bottom: 4px; }
+.account-summary strong { display: block; font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+
+.account-panel a, .account-panel button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: start;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.account-panel a:hover, .account-panel button:hover { background: var(--sagheri-card); }
+.account-panel .logout { color: var(--sagheri-primary-dark, #8f5647); border-top: 1px solid var(--sagheri-border); }
+svg { flex-shrink: 0; }
+
+@media (max-width: 767px) {
+  .account-trigger { height: 64px; padding: 4px; gap: 2px; }
+  .account-panel {
+    position: fixed;
+    inset-inline: 12px;
+    bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+    width: auto;
+  }
+}

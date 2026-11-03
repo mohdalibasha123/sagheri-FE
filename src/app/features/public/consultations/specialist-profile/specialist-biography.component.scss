@@ -1,0 +1,38 @@
+.specialist-biography {
+  color: var(--sagheri-text);
+  font-size: 15px;
+  line-height: 2;
+  overflow-wrap: anywhere;
+
+  p { margin: 0 0 20px; white-space: pre-line; }
+  h2, h3 {
+    margin: 36px 0 18px;
+    padding-inline-start: 14px;
+    border-inline-start: 4px solid var(--sagheri-secondary);
+    color: var(--sagheri-primary-dark, #8f5647);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.6;
+    scroll-margin-block-start: 80px;
+  }
+  blockquote {
+    margin: 28px 0;
+    padding: 16px 20px;
+    border-inline-start: 3px solid var(--sagheri-secondary);
+    background: rgba(99, 163, 158, .08);
+    color: #477c78;
+    font-weight: 700;
+  }
+  ul, ol { margin: 0 0 24px; padding-inline-start: 24px; }
+  ul { list-style: disc; }
+  ol { list-style: decimal; }
+  li { margin-bottom: 14px; padding-inline-start: 4px; }
+  li::marker { color: var(--sagheri-secondary); }
+  strong { color: var(--sagheri-text); font-weight: 800; }
+  a { color: var(--sagheri-primary-dark, #8f5647); text-decoration: underline; }
+  img { max-width: 100%; height: auto; }
+
+  @media (max-width: 700px) {
+    h2, h3 { font-size: 20px; margin-top: 28px; }
+  }
+}

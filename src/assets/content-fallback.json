@@ -1,0 +1,940 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-03T21:22:36.694112700Z",
+  "source": "sagheri-be",
+  "courses": [
+    {
+      "id": "10000000-0000-0000-0000-000000000001",
+      "slug": "pre-pregnancy-preparation",
+      "titleAr": "التحضير قبل الحمل",
+      "titleEn": "Preparing Before Pregnancy",
+      "subtitleAr": "تغذية وفحوصات وتمارين لمرحلة ما قبل الحمل",
+      "subtitleEn": "Nutrition, checks, and movement before pregnancy",
+      "descriptionAr": "تغذية سليمة، فحوصات أساسية، وتمارين تساعدك على دخول رحلة الحمل بثقة ووعي.",
+      "descriptionEn": "Nutrition, essential checks, and exercises to help you begin pregnancy with clarity and confidence.",
+      "thumbnailUrl": "/images/course-1.jpg",
+      "videoPreviewUrl": "/videos/pre-pregnancy-preparation.mp4",
+      "durationMinutes": 90,
+      "lessonsCount": 8,
+      "priceAmount": 150,
+      "currency": "JOD",
+      "rating": 5,
+      "reviewsCount": 42,
+      "badgeAr": "قبل الحمل",
+      "badgeEn": "Before pregnancy",
+      "free": false,
+      "displayOrder": 1,
+      "outcomes": [
+        {
+          "id": "41000000-0000-0000-0000-000000000001",
+          "textAr": "تحضير الجسم للحمل",
+          "textEn": "Prepare your body for pregnancy",
+          "displayOrder": 1
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000002",
+          "textAr": "تمارين قاع الحوض",
+          "textEn": "Pelvic floor exercises",
+          "displayOrder": 2
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000003",
+          "textAr": "تغذية مناسبة",
+          "textEn": "Helpful nutrition",
+          "displayOrder": 3
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000004",
+          "textAr": "خطة يومية واضحة",
+          "textEn": "Clear daily plan",
+          "displayOrder": 4
+        }
+      ],
+      "lessons": [
+        {
+          "id": "11000000-0000-0000-0000-000000000001",
+          "titleAr": "التغذية المناسبة قبل الحمل",
+          "titleEn": "Nutrition Before Pregnancy",
+          "descriptionAr": "أساسيات غذائية تساعدك على تجهيز الجسم للحمل.",
+          "descriptionEn": "Nutrition basics that support body readiness before pregnancy.",
+          "durationMinutes": 45,
+          "videoUrl": "/videos/course-1-lesson-1.mp4",
+          "displayOrder": 1,
+          "preview": true
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000002",
+          "titleAr": "تمارين عضلات الحوض",
+          "titleEn": "Pelvic Floor Exercises",
+          "descriptionAr": "تمارين آمنة ومبسطة لدعم صحة الحوض قبل الحمل.",
+          "descriptionEn": "Simple, safe exercises to support pelvic health before pregnancy.",
+          "durationMinutes": 45,
+          "videoUrl": null,
+          "displayOrder": 2,
+          "preview": false
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-0000-0000-000000000002",
+      "slug": "pregnancy-journey",
+      "titleAr": "مراحل الحمل الثلاث",
+      "titleEn": "The Three Pregnancy Trimesters",
+      "subtitleAr": "دليل واضح لكل مرحلة من الحمل",
+      "subtitleEn": "A clear guide for each pregnancy stage",
+      "descriptionAr": "دروس مبسطة عن تغيرات الجسم ونمو الجنين مع إرشادات تغذية وحركة لكل مرحلة.",
+      "descriptionEn": "Clear lessons on body changes, fetal growth, nutrition, and movement in each trimester.",
+      "thumbnailUrl": "/images/course-2.jpg",
+      "videoPreviewUrl": "/videos/pregnancy-journey.mp4",
+      "durationMinutes": 270,
+      "lessonsCount": 12,
+      "priceAmount": 150,
+      "currency": "JOD",
+      "rating": 5,
+      "reviewsCount": 38,
+      "badgeAr": "الحمل",
+      "badgeEn": "Pregnancy",
+      "free": false,
+      "displayOrder": 2,
+      "outcomes": [
+        {
+          "id": "41000000-0000-0000-0000-000000000005",
+          "textAr": "فهم تغيرات الجسم",
+          "textEn": "Understand body changes",
+          "displayOrder": 1
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000006",
+          "textAr": "متابعة نمو الجنين",
+          "textEn": "Follow fetal growth",
+          "displayOrder": 2
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000007",
+          "textAr": "حركة آمنة خلال الحمل",
+          "textEn": "Safe movement during pregnancy",
+          "displayOrder": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "11000000-0000-0000-0000-000000000003",
+          "titleAr": "مراحل نمو الجنين",
+          "titleEn": "Fetal Growth Stages",
+          "descriptionAr": "مقدمة واضحة لمراحل نمو الجنين خلال الحمل.",
+          "descriptionEn": "A clear introduction to fetal development throughout pregnancy.",
+          "durationMinutes": 90,
+          "videoUrl": "/videos/course-2-lesson-1.mp4",
+          "displayOrder": 1,
+          "preview": true
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000004",
+          "titleAr": "تغيرات جسم الأم",
+          "titleEn": "Changes in the Mother’s Body",
+          "descriptionAr": "فهم التغيرات الجسدية والنفسية الشائعة.",
+          "descriptionEn": "Understanding common physical and emotional changes.",
+          "durationMinutes": 90,
+          "videoUrl": null,
+          "displayOrder": 2,
+          "preview": false
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000005",
+          "titleAr": "التغذية والتمارين الآمنة",
+          "titleEn": "Safe Nutrition and Movement",
+          "descriptionAr": "إرشادات عملية للتغذية والحركة خلال الحمل.",
+          "descriptionEn": "Practical guidance for food choices and movement during pregnancy.",
+          "durationMinutes": 90,
+          "videoUrl": null,
+          "displayOrder": 3,
+          "preview": false
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-0000-0000-000000000003",
+      "slug": "postpartum-breastfeeding-baby-care",
+      "titleAr": "بعد الولادة والرضاعة",
+      "titleEn": "Postpartum and Breastfeeding",
+      "subtitleAr": "رضاعة وعناية وتعاف في الأشهر الأولى",
+      "subtitleEn": "Feeding, care, and recovery in the first months",
+      "descriptionAr": "كل ما تحتاجينه عن الرضاعة الطبيعية، العناية بالطفل، والتعافي الجسدي والنفسي.",
+      "descriptionEn": "Everything you need about breastfeeding, baby care, and physical and emotional recovery.",
+      "thumbnailUrl": "/images/course-3.jpg",
+      "videoPreviewUrl": "/videos/postpartum-breastfeeding-baby-care.mp4",
+      "durationMinutes": 240,
+      "lessonsCount": 15,
+      "priceAmount": 150,
+      "currency": "JOD",
+      "rating": 5,
+      "reviewsCount": 45,
+      "badgeAr": "بعد الولادة",
+      "badgeEn": "Postpartum",
+      "free": false,
+      "displayOrder": 3,
+      "outcomes": [
+        {
+          "id": "41000000-0000-0000-0000-000000000008",
+          "textAr": "أساسيات الرضاعة الطبيعية",
+          "textEn": "Breastfeeding basics",
+          "displayOrder": 1
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000009",
+          "textAr": "العناية اليومية بالطفل",
+          "textEn": "Daily baby care",
+          "displayOrder": 2
+        },
+        {
+          "id": "41000000-0000-0000-0000-000000000010",
+          "textAr": "التعافي الجسدي والنفسي",
+          "textEn": "Physical and emotional recovery",
+          "displayOrder": 3
+        }
+      ],
+      "lessons": [
+        {
+          "id": "11000000-0000-0000-0000-000000000006",
+          "titleAr": "أساسيات الرضاعة الطبيعية",
+          "titleEn": "Breastfeeding Basics",
+          "descriptionAr": "كيف تبدئين الرضاعة بثقة وراحة.",
+          "descriptionEn": "How to start breastfeeding with confidence and comfort.",
+          "durationMinutes": 50,
+          "videoUrl": "/videos/course-3-lesson-1.mp4",
+          "displayOrder": 1,
+          "preview": true
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000007",
+          "titleAr": "تغذية الأم والرضيع",
+          "titleEn": "Mother and Baby Nutrition",
+          "descriptionAr": "اختيارات غذائية داعمة بعد الولادة.",
+          "descriptionEn": "Supportive food choices after birth.",
+          "durationMinutes": 50,
+          "videoUrl": null,
+          "displayOrder": 2,
+          "preview": false
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000008",
+          "titleAr": "العناية اليومية بالطفل",
+          "titleEn": "Daily Baby Care",
+          "descriptionAr": "النوم، الاستحمام، وتغيير الحفاظ.",
+          "descriptionEn": "Sleep, bathing, diaper changes, and daily newborn routines.",
+          "durationMinutes": 50,
+          "videoUrl": null,
+          "displayOrder": 3,
+          "preview": false
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000009",
+          "titleAr": "تنظيم الرضاعة والنوم",
+          "titleEn": "Breastfeeding and Sleep Rhythm",
+          "descriptionAr": "خطوات عملية لتنظيم الرضاعة والنوم.",
+          "descriptionEn": "Practical steps for organizing feeding and sleep.",
+          "durationMinutes": 45,
+          "videoUrl": null,
+          "displayOrder": 4,
+          "preview": false
+        },
+        {
+          "id": "11000000-0000-0000-0000-000000000010",
+          "titleAr": "المشاكل الشائعة بعد الولادة",
+          "titleEn": "Common Postpartum Challenges",
+          "descriptionAr": "التعامل مع تحديات الأسابيع الأولى.",
+          "descriptionEn": "How to handle common challenges in the first weeks.",
+          "durationMinutes": 45,
+          "videoUrl": null,
+          "displayOrder": 5,
+          "preview": false
+        }
+      ]
+    }
+  ],
+  "specialists": [
+    {
+      "id": "20000000-0000-0000-0000-000000000001",
+      "nameAr": "بيان القضماني",
+      "nameEn": "Bayan Al-Qadamani",
+      "titleAr": "أخصائية تغذية واستشارية رضاعة طبيعية معتمدة دولياً (IBCLC)",
+      "titleEn": "Nutritionist and International Board Certified Lactation Consultant (IBCLC)",
+      "bioAr": "<p>بيان القضماني أخصائية تغذية واستشارية رضاعة طبيعية معتمدة دولياً (IBCLC) تجمع في أسلوبها الاستشاري بين خبرتها الميدانية العميقة التي تمتد لأكثر من 7 سنوات، والفهم المتكامل لتغذية الأم والطفل، والرضاعة الطبيعية، والصحة المجتمعية.</p>\n\n<p>يركّز عملها على مساعدة الأمهات في فهم احتياجاتهم التغذوية خلال مرحلة التحضير للحمل، الحمل، والرضاعة الطبيعية. إضافة إلى فهم إحتياجات أطفالهن التغذوية خلال أول 1000 يوم من حياتهم (منذ الحمل وحتى عمر سنتين)، والتعامل مع مجموعة واسعة من التحديات، مثل صعوبات الرضاعة الطبيعية، آلام الحلمة، زيادة أو نقص إدرار الحليب، رفض الثدي، مرحلة إدخال الطعام التكميلية للرضيع، والفطام.</p>\n\n<p>تؤمن بيان بأن التثقيف المبكر حول مرحلة الحمل والرضاعة يساعد في تهيئة الأم لهذه المرحلة الحساسة، كما يساهم في تفادي الأخطاء الشائعة خلال رحلة الرضاعة الطبيعية التي قد تجعل الأم تتخذ قرار الفطام مبكراً.</p>\n\n<p>كما يجمع أسلوبها في الإستشارات على التقييم الشامل للأم والطفل لتصميم خطة مناسبة لكل حالة بشكل منفصل مع مراعاة إختلاف الإحتياجات التغذوية، منحنى النمو الخاص بكل طفل، والرغبات الشخصية لكل عائلة، مع المتابعة والتوجيه لكل حالة لفترة محددة بعد الإستشارة.</p>\n\n<p>حصلت على تدريبات وشاركت في مؤتمرات عالمية متخصصة في مجالات الرضاعة الطبيعية للإطلاع أحدث الدراسات والتقنيات فيما يخص مرحلة الرضاعة الطبيعي.</p>\n\n<blockquote>«ثقتكِ بنفسكِ وفهمكِ لاحتياجات طفلكِ هما جوهر رحلة الأمومة الناجحة.»</blockquote>\n\n<h3>لماذا تحجزين إستشارة معي؟</h3>\n\n<ul>\n<li><strong>خبرة متخصصة ومعتمدة دولياً:</strong> أقدم لكِ المعرفة والخبرة كاستشارية IBCLC معتمدة مع سنوات من العمل الميداني مع أمهات من مختلف الخلفيات.</li>\n<li><strong>نظرة شاملة:</strong> لا ننظر للرضاعة والتغذية كأرقام فقط، بل كرحلة مترابطة تشمل صحتكِ النفسية والجسدية وراحة طفلكِ.</li>\n<li><strong>معلومات واضحة وعملية:</strong> أحوّل التوصيات العلمية والطبية المعقدة إلى خطوات بسيطة وحلول يومية سهلة التطبيق.</li>\n<li><strong>خطة مخصصة لكل أم وطفل:</strong> كل تجربة أمومة هي تجربة فريدة، ولذلك أصمم خطة الدعم لتناسب ظروفكِ واحتياجات طفلكِ الخاصة.</li>\n<li><strong>التثقيف جزء من الحل:</strong> هدفي ليس فقط حل المشكلة الحالية، بل إكسابكِ المعرفة والثقة لتتعاملي مع أي تحدٍّ مستقبلي براحة بال.</li>\n</ul>\n\n<h3>هل تحتاجين إلى دعم فردي ومباشر؟</h3>\n\n<p>أحياناً تكون المعلومات العامة بداية جيدة، لكن قد تحتاجين إلى تقييم شخصي ومتابعة دقيقة لمساعدتكِ أنتِ وطفلكِ بشكل خاص.</p>\n\n<p>إذا كنتِ تبحثين عن توجيه مخصص يناسب حالتكِ، يمكنكِ حجز جلسة استشارية فردية للحصول على تقييم شامل وخطة عمل مخصصة لرحلتكِ.</p>",
+      "bioEn": "<p>Bayan Al-Qadamani is a nutritionist and International Board Certified Lactation Consultant (IBCLC). Her approach combines more than seven years of hands-on experience with a comprehensive understanding of maternal and child nutrition, breastfeeding, and community health.</p>\n\n<p>She helps mothers understand their nutritional needs before pregnancy, during pregnancy, and while breastfeeding, as well as their children&#39;s nutritional needs during the first 1,000 days, from pregnancy to age two. She supports families with breastfeeding difficulties, nipple pain, oversupply or low milk supply, breast refusal, introducing complementary foods, and weaning.</p>\n\n<p>Bayan believes that early pregnancy and breastfeeding education helps mothers prepare for this sensitive stage and avoid common difficulties that may lead to early weaning.</p>\n\n<p>Her consultations include a comprehensive assessment of mother and child and an individual plan that considers nutritional needs, each child&#39;s growth curve, and family preferences. Follow-up and guidance are provided for a defined period after the consultation.</p>\n\n<p>She has completed training and attended international breastfeeding conferences to keep up with current research and techniques.</p>\n\n<blockquote>“Your confidence in yourself and your understanding of your baby&#39;s needs are at the heart of a successful motherhood journey.”</blockquote>\n\n<h3>Why book a consultation with me?</h3>\n\n<ul>\n<li><strong>Internationally certified expertise:</strong> I bring my knowledge as an IBCLC consultant and years of hands-on experience with mothers from different backgrounds.</li>\n<li><strong>A comprehensive perspective:</strong> Breastfeeding and nutrition are more than numbers. They are a connected journey involving your emotional and physical health and your baby&#39;s comfort.</li>\n<li><strong>Clear, practical information:</strong> I turn complex scientific and medical recommendations into simple steps and everyday solutions.</li>\n<li><strong>An individual plan for each mother and child:</strong> Every motherhood experience is unique, so I tailor support to your circumstances and your baby&#39;s needs.</li>\n<li><strong>Education is part of the solution:</strong> My aim is to address your current concern and help you gain the knowledge and confidence to handle future challenges.</li>\n</ul>\n\n<h3>Do you need direct, individual support?</h3>\n\n<p>General information can be a helpful start, but you and your baby may benefit from an individual assessment and careful follow-up.</p>\n\n<p>Book an individual consultation for a comprehensive assessment and a plan tailored to your circumstances and journey.</p>",
+      "imageUrl": "/images/specialist-1.jpg",
+      "specialty": "LACTATION",
+      "specialties": [
+        {
+          "textAr": "تجهيز جسم الأم تغذويا لفترة الحمل",
+          "textEn": "Nutritional preparation for pregnancy"
+        },
+        {
+          "textAr": "الرضاعة الطبيعية وتجاوز صعوباتها",
+          "textEn": "Breastfeeding and overcoming feeding difficulties"
+        },
+        {
+          "textAr": "تقييم ومتابعة مشاكل إدرار الحليب (الزيادة أو النقص)",
+          "textEn": "Assessment and follow-up for oversupply or low milk supply"
+        },
+        {
+          "textAr": "التعامل مع آلام الرضاعة، التهابات الحلمة والثدي",
+          "textEn": "Breastfeeding pain and nipple and breast inflammation"
+        },
+        {
+          "textAr": "التعامل مع الحساسيات التغذوية المختلفة لدى الأمهات أو الرضع",
+          "textEn": "Food allergies in mothers and infants"
+        },
+        {
+          "textAr": "تغذية الرضع وإدخال الأطعمة التكميلية",
+          "textEn": "Infant nutrition and introducing complementary foods"
+        },
+        {
+          "textAr": "تغذية الأم خلال فترتي الحمل والرضاعة",
+          "textEn": "Maternal nutrition during pregnancy and breastfeeding"
+        },
+        {
+          "textAr": "متابعة تغذوية للحوامل والمرضعات اللواتي يعانين من أمراض مزمنة مثل (السكري، الضغط، إضطرابات الغدة، تكيس المبايض، وغيرها)",
+          "textEn": "Nutritional follow-up during pregnancy and breastfeeding for chronic conditions, including diabetes, hypertension, thyroid disorders, and polycystic ovary syndrome"
+        },
+        {
+          "textAr": "تقييم نمو الطفل وتغذيته المخصصة",
+          "textEn": "Child growth assessment and individual nutrition support"
+        }
+      ],
+      "credentials": [
+        {
+          "textAr": "أخصائية تغذية",
+          "textEn": "Nutritionist"
+        },
+        {
+          "textAr": "استشارية رضاعة طبيعية معتمدة دولياً (IBCLC)",
+          "textEn": "International Board Certified Lactation Consultant (IBCLC)"
+        }
+      ],
+      "displayOrder": 1
+    },
+    {
+      "id": "20000000-0000-0000-0000-000000000002",
+      "nameAr": "ولاء المغربي",
+      "nameEn": "Walaa Al-Maghrabi",
+      "titleAr": "أخصائية علاج طبيعي في صحة المرأة وصحة الحوض",
+      "titleEn": "Women's Health and Pelvic Health Physiotherapist",
+      "bioAr": "<p>ولاء المغربي أخصائية علاج طبيعي مرخّصة، متخصصة في صحة المرأة وصحة الحوض، وتجمع في أسلوبها العلاجي بين خبرتها في صحة المرأة والفهم المتكامل للجهاز العضلي الهيكلي ومنطقة الحوض وأسفل الظهر.</p>\n\n<p>يركّز عملها على مساعدة النساء في فهم أجسامهن والتعامل مع مجموعة واسعة من المشكلات، مثل مشكلات عضلات قاع الحوض، آلام الحوض، التغيرات المرتبطة بالحمل، التعافي بعد الولادة، مشكلات التحكم بالمثانة والأمعاء، انفصال عضلات البطن، والمشكلات العضلية الهيكلية المرتبطة بالحوض وأسفل الظهر.</p>\n\n<p>تؤمن ولاء بأن التعامل مع المشكلة لا يجب أن يقتصر على الأعراض فقط، لذلك تعتمد على نظرة شاملة ومخصصة لكل سيدة، مع فهم العلاقة بين عضلات قاع الحوض، والتنفس، وعضلات البطن، والعمود الفقري، والحوض، والوركين، وطريقة الحركة.</p>\n\n<p>ويجمع أسلوبها العلاجي بين التقييم السريري، والتمارين العلاجية، وتدريب الحركة والتحكم الحركي، وتنظيم التنفس والضغط داخل البطن، والعلاج اليدوي عند الحاجة، والتثقيف الصحي.</p>\n\n<p>كما حصلت على تدريبات متخصصة في مجالات صحة المرأة، وصحة الحوض، وآلام الحوض، وتنظيم الضغط داخل البطن والحوض، وانفصال عضلات البطن، واستقرار الجذع، ومشكلات مفاصل الحوض، والميكانيكا الحيوية، وإعادة تأهيل الحركة.</p>\n\n<p>إلى جانب عملها السريري، تهتم ولاء بشكل خاص بتثقيف النساء حول أجسامهن وصحتهن، وتحرص على تقديم المعلومات الصحية بطريقة بسيطة وواضحة تساعد المرأة على فهم ما يحدث في جسمها وما يمكنها فعله لتحسين صحتها.</p>\n\n<p>من خلال الإستشارة، تهدف ولاء إلى تقديم معلومات موثوقة، واضحة، وعملية تساعدكِ على فهم جسمك بشكل أفضل، والتعرف على ما قد تمرين به، ومعرفة الخطوات التي يمكنكِ اتخاذها نحو صحة أفضل.</p>\n\n<blockquote>«فهمكِ لجسمك هو أول خطوة للعناية به.»</blockquote>\n\n<h3>لماذا تتعلمين معي؟</h3>\n\n<ul>\n<li><strong>خبرة متخصصة في صحة المرأة:</strong> أقدّم لكِ المعرفة من منظور أخصائية علاج طبيعي تعمل في مجال صحة المرأة وصحة الحوض.</li>\n<li><strong>نظرة شاملة للجسم:</strong> لا ننظر إلى المشكلة بمعزل عن باقي الجسم، بل نفهم العلاقة بين الحوض، وقاع الحوض، والبطن، والتنفس، والظهر، والوركين والحركة.</li>\n<li><strong>معلومات واضحة وعملية:</strong> أحوّل المعلومات الطبية إلى شرح بسيط وسهل الفهم، حتى تتمكني من فهم جسمك والاستفادة مما تتعلمينه في حياتك اليومية.</li>\n<li><strong>نهج مخصص لكل سيدة:</strong> كل جسم مختلف، لذلك أؤمن بأن فهم احتياجاتك وأعراضك هو الأساس للوصول إلى الطريقة الأنسب لمساعدتكِ.</li>\n<li><strong>تثقيفك جزء من العلاج:</strong> هدفي ليس فقط أن أساعدكِ في التعامل مع المشكلة، وإنما أن تفهمي ما يحدث في جسمك ولماذا يحدث وماذا يمكنكِ أن تفعلي حياله.</li>\n</ul>\n\n<h3>هل تحتاجين إلى دعم فردي؟</h3>\n\n<p>أحيانًا تكون المعلومات العامة بداية جيدة، لكن قد تحتاجين إلى تقييم وفهم أكثر تفصيلًا لما يحدث معكِ.</p>\n\n<p>إذا كنتِ تبحثين عن توجيه شخصي يناسب حالتك واحتياجاتك، يمكنكِ حجز جلسة فردية مع ولاء للحصول على تقييم وإرشاد مخصص لصحتكِ.</p>",
+      "bioEn": "<p>Walaa Al-Maghrabi is a licensed physiotherapist specializing in women&#39;s health and pelvic health. Her approach combines experience in women&#39;s health with a comprehensive understanding of the musculoskeletal system, pelvis, and lower back.</p>\n\n<p>She helps women understand their bodies and manage pelvic floor concerns, pelvic pain, pregnancy-related changes, postpartum recovery, bladder and bowel control difficulties, abdominal separation, and musculoskeletal conditions affecting the pelvis and lower back.</p>\n\n<p>Walaa believes care should go beyond symptoms. She takes an individual, comprehensive approach that considers the connections between the pelvic floor, breathing, abdominal muscles, spine, pelvis, hips, and movement.</p>\n\n<p>Her approach combines clinical assessment, therapeutic exercise, movement and motor-control training, breathing and abdominal pressure management, manual therapy when needed, and health education.</p>\n\n<p>She has completed specialized training in women&#39;s health, pelvic health and pain, abdominal and pelvic pressure management, abdominal separation, core stability, pelvic joint conditions, biomechanics, and movement rehabilitation.</p>\n\n<p>Alongside her clinical work, Walaa is particularly interested in helping women learn about their bodies and health. She presents information clearly and simply so women can understand what is happening in their bodies and what they can do to support their health.</p>\n\n<p>Through consultation, she aims to offer reliable, clear, practical information that helps you understand your body, recognize what you may be experiencing, and identify steps toward better health.</p>\n\n<blockquote>“Understanding your body is the first step toward caring for it.”</blockquote>\n\n<h3>Why learn with me?</h3>\n\n<ul>\n<li><strong>Specialist experience in women&#39;s health:</strong> I share knowledge from the perspective of a physiotherapist working in women&#39;s health and pelvic health.</li>\n<li><strong>A whole-body perspective:</strong> We consider the connections between the pelvis, pelvic floor, abdomen, breathing, back, hips, and movement rather than viewing a concern in isolation.</li>\n<li><strong>Clear, practical information:</strong> I turn medical information into simple explanations that help you understand your body and apply what you learn to everyday life.</li>\n<li><strong>An individual approach:</strong> Every body is different. Understanding your needs and symptoms is the foundation for finding the most appropriate support.</li>\n<li><strong>Education is part of treatment:</strong> My aim is to help you address your concern and understand what is happening in your body, why it happens, and what you can do about it.</li>\n</ul>\n\n<h3>Do you need individual support?</h3>\n\n<p>General information can be a helpful start, but you may need a more detailed assessment and understanding of your own circumstances.</p>\n\n<p>Book an individual session with Walaa for an assessment and guidance tailored to your health and needs.</p>",
+      "imageUrl": "/images/specialist-2.jpg",
+      "specialty": "PHYSIOTHERAPY",
+      "specialties": [
+        {
+          "textAr": "صحة الحوض وقاع الحوض",
+          "textEn": "Pelvic and pelvic floor health"
+        },
+        {
+          "textAr": "آلام الحوض",
+          "textEn": "Pelvic pain"
+        },
+        {
+          "textAr": "الحمل والتغيرات الجسدية خلاله",
+          "textEn": "Pregnancy and related physical changes"
+        },
+        {
+          "textAr": "التعافي وإعادة التأهيل بعد الولادة",
+          "textEn": "Postpartum recovery and rehabilitation"
+        },
+        {
+          "textAr": "مشكلات المثانة والتحكم بالبول",
+          "textEn": "Bladder concerns and urinary control"
+        },
+        {
+          "textAr": "مشكلات الأمعاء والإخراج",
+          "textEn": "Bowel and evacuation concerns"
+        },
+        {
+          "textAr": "انفصال عضلات البطن",
+          "textEn": "Abdominal separation (diastasis recti)"
+        },
+        {
+          "textAr": "مشكلات الحوض وأسفل الظهر",
+          "textEn": "Pelvic and lower back conditions"
+        },
+        {
+          "textAr": "المشكلات العضلية الهيكلية المرتبطة بصحة المرأة",
+          "textEn": "Musculoskeletal conditions related to women's health"
+        },
+        {
+          "textAr": "الحركة والتحكم الحركي وإعادة التأهيل",
+          "textEn": "Movement, motor control, and rehabilitation"
+        }
+      ],
+      "credentials": [
+        {
+          "textAr": "أخصائية علاج طبيعي مرخّصة",
+          "textEn": "Licensed physiotherapist"
+        },
+        {
+          "textAr": "تدريبات متخصصة في صحة المرأة وصحة الحوض وإعادة تأهيل الحركة",
+          "textEn": "Specialized training in women's health, pelvic health, and movement rehabilitation"
+        }
+      ],
+      "displayOrder": 2
+    }
+  ],
+  "consultationTypes": [
+    {
+      "id": "21000000-0000-0000-0000-000000000001",
+      "code": "TEXT_CHAT",
+      "nameAr": "محادثة نصية",
+      "nameEn": "Text Chat",
+      "descriptionAr": "استشارة كتابية مرنة للأسئلة السريعة.",
+      "descriptionEn": "A flexible written consultation for quick questions.",
+      "durationMinutes": 30,
+      "priceAmount": 20,
+      "currency": "JOD"
+    },
+    {
+      "id": "21000000-0000-0000-0000-000000000002",
+      "code": "VIDEO_CALL",
+      "nameAr": "مكالمة فيديو",
+      "nameEn": "Video Call",
+      "descriptionAr": "جلسة مباشرة مع الأخصائية لمناقشة حالتك بوضوح.",
+      "descriptionEn": "A live session with the specialist to discuss your case clearly.",
+      "durationMinutes": 45,
+      "priceAmount": 35,
+      "currency": "JOD"
+    },
+    {
+      "id": "21000000-0000-0000-0000-000000000003",
+      "code": "VOICE_CALL",
+      "nameAr": "مكالمة صوتية",
+      "nameEn": "Voice Call",
+      "descriptionAr": "استشارة صوتية مريحة عند عدم الرغبة في الفيديو.",
+      "descriptionEn": "A convenient audio consultation when video is not preferred.",
+      "durationMinutes": 45,
+      "priceAmount": 30,
+      "currency": "JOD"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "30000000-0000-0000-0000-000000000001",
+      "questionAr": "هل الرضاعة الطبيعية مؤلمة؟",
+      "questionEn": "Is breastfeeding painful?",
+      "answerAr": "قد تشعر بعض الأمهات بانزعاج بسيط في الأيام الأولى، لكن الألم الشديد أو المستمر غالباً يدل على مشكلة في الالتقام أو الوضعية.",
+      "answerEn": "Some discomfort can happen in the first days, but severe or ongoing pain often points to latch or positioning issues.",
+      "displayOrder": 1
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000002",
+      "questionAr": "كيف أزيد إدرار الحليب؟",
+      "questionEn": "How can I increase milk supply?",
+      "answerAr": "زيادة إدرار الحليب تعتمد على الرضاعة المتكررة، التفريغ الجيد للثدي، شرب السوائل، الراحة، والتأكد من الرضاعة بطريقة صحيحة.",
+      "answerEn": "Milk supply is supported by frequent feeding, effective breast emptying, hydration, rest, and a good latch.",
+      "displayOrder": 2
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000003",
+      "questionAr": "متى أبدأ تغذية الطفل؟",
+      "questionEn": "When should I start feeding my baby solids?",
+      "answerAr": "عادة يبدأ إدخال الطعام التكميلي حول عمر 6 أشهر، مع الاستمرار في الرضاعة حسب حالة الطفل وتوصيات الطبيب.",
+      "answerEn": "Complementary foods usually start around 6 months, while continuing breastfeeding or formula according to the baby’s needs and medical advice.",
+      "displayOrder": 3
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000004",
+      "questionAr": "هل يحتاج الرضيع لمكملات غذائية؟",
+      "questionEn": null,
+      "answerAr": "قد يحتاج بعض الأطفال إلى مكملات مثل فيتامين د، لكن القرار يعتمد على عمر الطفل، حالته الصحية، وتوصيات الطبيب أو الأخصائية.",
+      "answerEn": null,
+      "displayOrder": 4
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000005",
+      "questionAr": "ما فوائد الرضاعة الطبيعية؟",
+      "questionEn": null,
+      "answerAr": "الرضاعة الطبيعية تدعم مناعة الطفل، توفر تغذية مناسبة، تعزز الترابط بين الأم والطفل، وقد تساعد الأم في التعافي بعد الولادة.",
+      "answerEn": null,
+      "displayOrder": 5
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000006",
+      "questionAr": "هل القلق يؤثر على جودة الحليب؟",
+      "questionEn": null,
+      "answerAr": "القلق لا يفسد الحليب، لكنه قد يؤثر على تدفق الحليب أو انتظام الرضاعة. الدعم والراحة والتوجيه الصحيح يمكن أن يساعدوا كثيراً.",
+      "answerEn": null,
+      "displayOrder": 6
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000007",
+      "questionAr": "كيف أتعامل مع احتقان الثدي؟",
+      "questionEn": null,
+      "answerAr": "يمكن تخفيف الاحتقان بالرضاعة المتكررة، الكمادات الدافئة قبل الرضاعة، الكمادات الباردة بعدها، والتأكد من تفريغ الثدي بطريقة صحيحة.",
+      "answerEn": null,
+      "displayOrder": 7
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000008",
+      "questionAr": "ما هو الاحتقان التدريجي؟",
+      "questionEn": null,
+      "answerAr": "هو امتلاء أو شد في الثدي يحدث تدريجياً بسبب تراكم الحليب أو قلة التفريغ. يحتاج إلى متابعة وتنظيم الرضاعة لتجنب الألم أو الانسداد.",
+      "answerEn": null,
+      "displayOrder": 8
+    },
+    {
+      "id": "30000000-0000-0000-0000-000000000009",
+      "questionAr": "ماذا أفعل إذا كان طفلي يعاني من الغازات أو المغص؟",
+      "questionEn": null,
+      "answerAr": "يمكنك تجربة التجشئة بعد الرضاعة، حمل الطفل بوضعيات مريحة، تدليك البطن بلطف، ومراجعة الأخصائية إذا كانت الأعراض مستمرة أو شديدة.",
+      "answerEn": null,
+      "displayOrder": 9
+    }
+  ],
+  "reviews": [
+    {
+      "id": "31000000-0000-0000-0000-000000000001",
+      "reviewerNameAr": "أم ليان",
+      "reviewerNameEn": "Layan’s Mother",
+      "contentAr": "الكورس كان واضحاً ومفيداً جداً، وساعدني أفهم جسمي وأستعد للحمل بثقة أكبر.",
+      "contentEn": "The course was clear and very helpful. It helped me understand my body and prepare for pregnancy with more confidence.",
+      "rating": 5,
+      "displayOrder": 1
+    },
+    {
+      "id": "31000000-0000-0000-0000-000000000002",
+      "reviewerNameAr": "أم يزن",
+      "reviewerNameEn": "Yazan’s Mother",
+      "contentAr": "الاستشارة مع الأخصائية طمأنتني كثيراً، وفهمت أخيراً سبب ألم الرضاعة وكيف أتعامل معه.",
+      "contentEn": "The specialist consultation reassured me and helped me understand why breastfeeding hurt and how to manage it.",
+      "rating": 5,
+      "displayOrder": 2
+    },
+    {
+      "id": "31000000-0000-0000-0000-000000000003",
+      "reviewerNameAr": "أم سارة",
+      "reviewerNameEn": "Sara’s Mother",
+      "contentAr": "المحتوى مرتب وسهل، وشعرت أنه معمول للأمهات فعلاً وليس مجرد معلومات عامة.",
+      "contentEn": "The content is organized and easy to follow. It feels truly designed for mothers, not just general information.",
+      "rating": 5,
+      "displayOrder": 3
+    }
+  ],
+  "cmsPages": [
+    {
+      "id": "40000000-0000-0000-0000-000000000002",
+      "pageKey": "about",
+      "titleAr": "عن صغيري",
+      "titleEn": "About Sagheri",
+      "seoTitleAr": "عن صغيري",
+      "seoTitleEn": "About Sagheri",
+      "seoDescriptionAr": "منصة عربية لأمومة أوعى.",
+      "seoDescriptionEn": "An Arabic platform for conscious motherhood.",
+      "ogImageUrl": null,
+      "sections": []
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000004",
+      "pageKey": "contact",
+      "titleAr": "تواصلي معنا",
+      "titleEn": "Contact Us",
+      "seoTitleAr": "تواصلي معنا",
+      "seoTitleEn": "Contact Us",
+      "seoDescriptionAr": "نحن هنا للإجابة على أسئلتك ودعمك في رحلة الأمومة.",
+      "seoDescriptionEn": "We are here to answer your questions and support your motherhood journey.",
+      "ogImageUrl": null,
+      "sections": []
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000003",
+      "pageKey": "faq",
+      "titleAr": "الأسئلة الشائعة",
+      "titleEn": "Frequently Asked Questions",
+      "seoTitleAr": "الأسئلة الشائعة",
+      "seoTitleEn": "Frequently Asked Questions",
+      "seoDescriptionAr": "كل ما تحتاجين معرفته عن خدمات صغيري.",
+      "seoDescriptionEn": "Everything you need to know about Sagheri services.",
+      "ogImageUrl": null,
+      "sections": []
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000001",
+      "pageKey": "home",
+      "titleAr": "صغيري",
+      "titleEn": "Sagheri",
+      "seoTitleAr": "صغيري - طريقك لأمومة أوعى",
+      "seoTitleEn": "Sagheri - Your path to conscious motherhood",
+      "seoDescriptionAr": "كورسات عربية واستشارات متخصصة تدعمك خلال الحمل والرضاعة وما بعد الولادة.",
+      "seoDescriptionEn": "Arabic courses and specialist consultations for pregnancy, breastfeeding, and postpartum care.",
+      "ogImageUrl": null,
+      "sections": [
+        {
+          "id": "32000000-0000-0000-0000-000000000001",
+          "sectionKey": "hero",
+          "sectionType": "HERO",
+          "titleAr": "صغيري - طريقك لأمومة أوعى",
+          "titleEn": "Sagheri - Your Path to Informed Motherhood",
+          "contentAr": "رحلتك الواعية في الأمومة تبدأ من هنا. دورات عربية واستشارات متخصصة تدعمك خلال الحمل والرضاعة وما بعد الولادة.",
+          "contentEn": "Your informed motherhood journey starts here. Arabic courses and specialist consultations support you through pregnancy, breastfeeding, and postpartum.",
+          "contentJsonAr": {
+            "headline": "صغيري - رحلتك الواعية في الأمومة",
+            "subtitle": "تعلمي، اسألي، واطمئني مع مختصات يساعدنك في الحمل، الرضاعة، تغذية الطفل، ورعاية ما بعد الولادة بخطوات واضحة ومبسطة.",
+            "ctaPrimary": "اشتركي في الكورسات",
+            "ctaSecondary": "احجزي استشارة مع أخصائية",
+            "badges": [
+              "محتوى عربي موثوق",
+              "مختصات معتمدات",
+              "استشارات فردية",
+              "كورسات مبسطة"
+            ]
+          },
+          "contentJsonEn": {
+            "headline": "Sagheri - Your conscious motherhood journey",
+            "subtitle": "Learn, ask, and feel reassured with specialists supporting pregnancy, breastfeeding, child nutrition, and postpartum care through clear practical steps.",
+            "ctaPrimary": "Join courses",
+            "ctaSecondary": "Book a consultation",
+            "badges": [
+              "Trusted Arabic content",
+              "Certified specialists",
+              "One-to-one consultations",
+              "Simple courses"
+            ]
+          },
+          "metadata": {
+            "placement": "home",
+            "ctaPrimaryAr": "اشتركي الآن",
+            "ctaPrimaryEn": "Join now",
+            "ctaSecondaryAr": "احجزي استشارة",
+            "ctaSecondaryEn": "Book a consultation"
+          },
+          "displayOrder": 1
+        },
+        {
+          "id": "32000000-0000-0000-0000-000000000002",
+          "sectionKey": "about",
+          "sectionType": "TEXT",
+          "titleAr": "عن صغيري",
+          "titleEn": "About Sagheri",
+          "contentAr": "صغيري منصة عربية هادئة تقدم محتوى موثوقاً واستشارات فردية للأمهات في كل مرحلة من رحلة الأمومة.",
+          "contentEn": "Sagheri is an Arabic-first platform offering trusted content and one-to-one consultations for mothers at every stage.",
+          "contentJsonAr": {
+            "headline": "عن صغيري",
+            "body": "صغيري يجمع الكورسات العملية والاستشارات المتخصصة لمساعدة الأم في الحمل والرضاعة وما بعد الولادة.",
+            "stats": [
+              {
+                "value": "+500",
+                "label": "أسرة مدعومة"
+              },
+              {
+                "value": "+8",
+                "label": "سنوات خبرة"
+              },
+              {
+                "value": "4.9",
+                "label": "تقييم الأمهات"
+              },
+              {
+                "value": "+50",
+                "label": "دولة"
+              }
+            ]
+          },
+          "contentJsonEn": {
+            "headline": "About Sagheri",
+            "body": "Sagheri combines practical courses and specialist consultations to support mothers through pregnancy, breastfeeding, and postpartum care.",
+            "stats": [
+              {
+                "value": "+500",
+                "label": "families supported"
+              },
+              {
+                "value": "+8",
+                "label": "years experience"
+              },
+              {
+                "value": "4.9",
+                "label": "mother rating"
+              },
+              {
+                "value": "+50",
+                "label": "countries"
+              }
+            ]
+          },
+          "metadata": {
+            "placement": "home"
+          },
+          "displayOrder": 2
+        }
+      ]
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000006",
+      "pageKey": "privacy",
+      "titleAr": "سياسة الخصوصية",
+      "titleEn": "Privacy Policy",
+      "seoTitleAr": "سياسة الخصوصية - صغيري",
+      "seoTitleEn": "Privacy Policy - Sagheri",
+      "seoDescriptionAr": "سياسة الخصوصية الخاصة بجمع واستخدام وحماية بيانات مستخدمات منصة صغيري.",
+      "seoDescriptionEn": "Privacy policy for collecting, using, and protecting Sagheri user data.",
+      "ogImageUrl": null,
+      "sections": [
+        {
+          "id": "42000000-0000-0000-0000-000000000002",
+          "sectionKey": "privacy_content",
+          "sectionType": "LEGAL_CONTENT",
+          "titleAr": "سياسة الخصوصية",
+          "titleEn": "Privacy Policy",
+          "contentAr": "سياسة الخصوصية الخاصة بمنصة صغيري.",
+          "contentEn": "Privacy policy for Sagheri.",
+          "contentJsonAr": {
+            "heading": "سياسة الخصوصية",
+            "items": [
+              {
+                "number": 1,
+                "body": "تلتزم المنصة بحماية خصوصية المستخدم وبياناته الشخصية وفقا لأحكام التشريعات الأردنية النافذة ذات الصلة بحماية البيانات، وتوضح هذه السياسة آلية جمع واستخدام وحماية البيانات."
+              },
+              {
+                "number": 2,
+                "body": "البيانات التي نجمعها: نقوم بجمع البيانات الشخصية الأساسية اللازمة للتسجيل مثل الاسم والبريد الإلكتروني ورقم الهاتف والبلد. أما بيانات الدفع فتعالج بشكل تشفيري كامل وآمن عبر بوابات دفع إلكترونية معتمدة، ولا تقوم المنصة بتخزين أرقام بطاقات الائتمان على خوادمها."
+              },
+              {
+                "number": 3,
+                "body": "كيف نستخدم بياناتك: نستخدم البيانات الشخصية حصرا لتفعيل الحساب وتمكين المستخدم من الوصول للدورات، وإرسال فواتير الشراء وإيميلات الدعم الفني وإشعارات تحديث المحتوى، بالإضافة إلى إرسال العروض والتحديثات مع توفير الحق الكامل للمستخدم في إلغاء الاشتراك البريدي في أي وقت."
+              },
+              {
+                "number": 4,
+                "body": "حماية البيانات والأمان: تطبق المنصة أعلى معايير الأمان التقني وتشفير البيانات SSL لحماية الحساب والمعلومات الشخصية من أي وصول أو تعديل أو إفصاح غير مصرح به."
+              },
+              {
+                "number": 5,
+                "body": "مشاركة البيانات مع أطراف ثالثة: لا تقوم المنصة ببيع أو إيجار أو مشاركة البيانات الشخصية مع أي أطراف خارجية لأغراض تسويقية. تقتصر مشاركة البيانات فقط على مزودي الخدمات الموثوقين واللازمين لتشغيل المنصة تقنيا، مثل بوابات الدفع وحاضنات الفيديوهات الآمنة."
+              },
+              {
+                "number": 6,
+                "body": "ملفات تعريف الارتباط: نستخدم الكوكيز لتحسين تجربة التصفح، وحفظ جلسات تسجيل الدخول أثناء التنقل بين الدروس، وفهم أنماط استخدام الزوار لتطوير الأداء. للمستخدمة الحرية التامة في التحكم أو تعطيل الكوكيز من خلال إعدادات المتصفح الخاص بها."
+              },
+              {
+                "number": 7,
+                "body": "حقوق المستخدمة: يحق للمستخدمة في أي وقت تعديل بياناتها الشخصية مباشرة من لوحة التحكم، أو طلب حذف حسابها وبياناتها نهائيا من خلال التواصل المباشر مع فريق الدعم الفني، أو إلغاء الاشتراك في الرسائل البريدية بضغطة زر."
+              },
+              {
+                "number": 8,
+                "body": "تخضع هذه الشروط والأحكام، وكافة النزاعات أو المطالبات الناشئة عنها أو المتعلقة بها، لتفسيرها وتطبيقها حصريا للقوانين والتشريعات النافذة في المملكة الأردنية الهاشمية، وتختص محاكمها حصريا بالنظر والفصل فيها. تعد هذه المنصة ومحتواها الرقمي، بما يتضمنه من دورات ومقالات وبودكاست وملفات وتصاميم، كيانا قانونيا محميا بالكامل بموجب التشريعات الأردنية ذات الصلة، ومنها قانون المعاملات الإلكترونية وقانون حماية حق المؤلف والتشريعات المدنية والتجارية السارية. تحتفظ المنصة بكافة حقوقها القانونية في ملاحقة أي جهة أو فرد يثبت قيامه بالقرصنة أو الاستخدام التجاري غير المرخص أو انتهاك حقوق الملكية الفكرية أو الإساءة لسمعة المنصة، مع المطالبة بكافة التعويضات القانونية والعطل والضرر أمام الجهات القضائية المختصة."
+              }
+            ]
+          },
+          "contentJsonEn": {
+            "heading": "Privacy Policy",
+            "items": [
+              {
+                "number": 1,
+                "body": "The platform is committed to protecting user privacy and personal data in accordance with the applicable Jordanian legislation related to data protection. This policy explains how data is collected, used, and protected."
+              },
+              {
+                "number": 2,
+                "body": "Data we collect: We collect the basic personal data needed for registration, such as name, email address, phone number, and country. Payment data is processed securely and fully encrypted through approved electronic payment gateways, and the platform does not store credit card numbers on its servers."
+              },
+              {
+                "number": 3,
+                "body": "How we use your data: We use personal data only to activate the account, enable access to courses, send purchase invoices and technical support emails, send content update notifications, and send offers and updates while giving users the full right to unsubscribe from emails at any time."
+              },
+              {
+                "number": 4,
+                "body": "Data protection and security: The platform applies high technical security standards and SSL encryption to protect accounts and personal information from unauthorized access, modification, or disclosure."
+              },
+              {
+                "number": 5,
+                "body": "Sharing data with third parties: The platform does not sell, rent, or share personal data with external parties for marketing purposes. Data sharing is limited to trusted service providers required to operate the platform technically, such as payment gateways and secure video hosting providers."
+              },
+              {
+                "number": 6,
+                "body": "Cookies: We use cookies to improve browsing experience, preserve login sessions while moving between lessons, and understand visitor usage patterns to improve performance. Users may control or disable cookies through their browser settings."
+              },
+              {
+                "number": 7,
+                "body": "User rights: Users may at any time update their personal data directly from the dashboard, request permanent deletion of their account and data by contacting the technical support team, or unsubscribe from emails with one click."
+              },
+              {
+                "number": 8,
+                "body": "These terms and conditions, and all disputes or claims arising from or related to them, are governed and interpreted exclusively under the laws and regulations in force in the Hashemite Kingdom of Jordan, whose courts have exclusive jurisdiction. The platform and its digital content, including courses, articles, podcasts, files, and designs, are fully protected under relevant Jordanian legislation, including the Electronic Transactions Law, the Copyright Protection Law, and applicable civil and commercial legislation. The platform reserves all legal rights to pursue any person or entity proven to have committed piracy, unauthorized commercial use, intellectual property infringement, or harm to the reputation of the platform, and to claim all legal compensation and damages before the competent judicial authorities."
+              }
+            ]
+          },
+          "metadata": {
+            "editable": true,
+            "legalPage": true,
+            "version": "2026-08-13"
+          },
+          "displayOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000007",
+      "pageKey": "refund-policy",
+      "titleAr": "سياسة الاسترداد",
+      "titleEn": "Refund Policy",
+      "seoTitleAr": "سياسة الاسترداد",
+      "seoTitleEn": "Refund Policy",
+      "seoDescriptionAr": "سياسة الاسترداد الخاصة بمنصة صغيري.",
+      "seoDescriptionEn": "Sagheri refund policy.",
+      "ogImageUrl": null,
+      "sections": []
+    },
+    {
+      "id": "40000000-0000-0000-0000-000000000005",
+      "pageKey": "terms",
+      "titleAr": "الشروط والأحكام",
+      "titleEn": "Terms and Conditions",
+      "seoTitleAr": "الشروط والأحكام - صغيري",
+      "seoTitleEn": "Terms and Conditions - Sagheri",
+      "seoDescriptionAr": "الشروط والأحكام الخاصة باستخدام منصة صغيري ومحتواها الرقمي.",
+      "seoDescriptionEn": "Terms and conditions for using Sagheri and its digital content.",
+      "ogImageUrl": null,
+      "sections": [
+        {
+          "id": "42000000-0000-0000-0000-000000000001",
+          "sectionKey": "terms_content",
+          "sectionType": "LEGAL_CONTENT",
+          "titleAr": "الشروط والأحكام",
+          "titleEn": "Terms and Conditions",
+          "contentAr": "الشروط والأحكام الخاصة باستخدام منصة صغيري.",
+          "contentEn": "Terms and conditions for using Sagheri.",
+          "contentJsonAr": {
+            "heading": "الشروط والأحكام",
+            "items": [
+              {
+                "number": 1,
+                "body": "المحتوى المقدم عبر المنصة، سواء كان دورات أو مقالات أو بودكاست، هو لغايات توعوية وتعليمية فقط، ولا يعتبر بديلا عن التشخيص الطبي أو الاستشارة الطبية المباشرة أو المتابعة مع الطبيب المختص. في حالات الطوارئ الطبية لك أو لطفلك، يجب التوجه فورا إلى المستشفى أو الطبيب المباشر، ولا تتحمل المنصة أو مقدمو المحتوى فيها أي مسؤولية قانونية عن أي قرارات يتخذها المستخدم بناء على المحتوى المقدم."
+              },
+              {
+                "number": 2,
+                "body": "جميع المواد المرئية والنصية والملفات المرفقة مثل ملفات PDF هي ملكية فكرية حصرية للموقع. يحظر تماما تسجيل أو نسخ أو إعادة نشر أو توزيع المحتوى أو مشاركة بيانات الحساب مع أي أشخاص آخرين أو أطراف ثالثة. يحق للمنصة فورا حظر أي حساب يثبت انتهاكه لهذه الشروط دون إشعار مسبق ودون استرداد قيمة الاشتراك، مع احتفاظ المنصة بكامل حقها في المطالبة بالتعويض القضائي عن الأضرار المادية والمعنوية الناتجة عن هذه الأفعال استنادا إلى قانون حماية حق المؤلف الأردني."
+              },
+              {
+                "number": 3,
+                "body": "المستخدم مسؤول عن الحفاظ على سرية بيانات حسابه وكلمة المرور. الاشتراك في الدورة يمنح حق الوصول الشخصي فقط للمشترك، ولا يجوز إعطاء الحساب لأي طرف ثالث."
+              },
+              {
+                "number": 4,
+                "body": "تسدد جميع الرسوم عبر وسائل الدفع المعتمدة على الموقع قبل الحصول على المحتوى. يحق للموقع تعديل أسعار الدورات أو إطلاق عروض ترويجية في أي وقت، على ألا تسري هذه التعديلات بأثر رجعي على عمليات الشراء التي تمت خارج فترة العروض."
+              },
+              {
+                "number": 5,
+                "body": "نظرا لأن الدورات التدريبية هي محتوى إلكتروني رقمي يسهل الوصول إليه وتحميل ملفاته فور الشراء، فإن جميع المبيعات تعتبر نهائية وغير قابلة للاسترجاع بعد إتمام عملية الدفع وفتح المحتوى. يستثنى من ذلك فقط الحالات الناتجة عن وجود خلل تقني جسيم من طرف المنصة يمنع المستخدم كليا من الوصول إلى المحتوى وتعذر على فريقنا التقني حله."
+              },
+              {
+                "number": 6,
+                "body": "تحتفظ المنصة بحقها القانوني في تحديث أو تعديل هذه الشروط والأحكام في أي وقت تراه مناسبا، وتصبح هذه التعديلات سارية المفعول فور نشرها رسميا على الموقع. يعد استمرار المستخدم في تصفح أو استخدام الموقع بعد نشر التعديلات موافقة صريحة منه على الشروط المحدثة."
+              }
+            ]
+          },
+          "contentJsonEn": {
+            "heading": "Terms and Conditions",
+            "items": [
+              {
+                "number": 1,
+                "body": "The content provided through the platform, whether courses, articles, or podcasts, is for awareness and educational purposes only. It is not a substitute for medical diagnosis, direct medical consultation, or follow-up with a qualified physician. In medical emergencies affecting you or your child, you must immediately go to a hospital or contact your treating physician. The platform and its content providers are not legally responsible for decisions made by users based on the provided content."
+              },
+              {
+                "number": 2,
+                "body": "All visual materials, written materials, and attached files such as PDF files are the exclusive intellectual property of the website. Recording, copying, republishing, distributing, or sharing account credentials with any other person or third party is strictly prohibited. The platform may immediately block any account proven to violate these terms without prior notice and without refunding the subscription fee, while preserving its full right to claim judicial compensation for material and moral damages under the Jordanian Copyright Protection Law."
+              },
+              {
+                "number": 3,
+                "body": "The user is responsible for keeping account credentials and password confidential. A course subscription grants personal access only to the subscriber, and the account may not be shared with any third party."
+              },
+              {
+                "number": 4,
+                "body": "All fees must be paid through the payment methods approved on the website before accessing the content. The website may change course prices or launch promotional offers at any time, provided such changes do not apply retroactively to purchases completed outside the promotional period."
+              },
+              {
+                "number": 5,
+                "body": "Because training courses are digital electronic content that can be accessed and downloaded immediately after purchase, all sales are final and non-refundable after payment is completed and the content is opened. The only exception is a severe technical defect caused by the platform that completely prevents the user from accessing the content and cannot be resolved by our technical team."
+              },
+              {
+                "number": 6,
+                "body": "The platform reserves its legal right to update or amend these terms and conditions at any time it deems appropriate. Amendments become effective immediately upon official publication on the website. Continued browsing or use of the website after publication constitutes explicit acceptance of the updated terms."
+              }
+            ]
+          },
+          "metadata": {
+            "editable": true,
+            "legalPage": true,
+            "version": "2026-08-13"
+          },
+          "displayOrder": 1
+        }
+      ]
+    }
+  ],
+  "siteSettings": [
+    {
+      "id": "33000000-0000-0000-0000-000000000004",
+      "settingKey": "default_currency",
+      "settingValue": "JOD",
+      "valueType": "STRING",
+      "groupName": "REGIONAL"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000005",
+      "settingKey": "default_locale",
+      "settingValue": "ar",
+      "valueType": "STRING",
+      "groupName": "REGIONAL"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000013",
+      "settingKey": "logo_url",
+      "settingValue": "/sagheri-logo.png",
+      "valueType": "STRING",
+      "groupName": "GENERAL"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000002",
+      "settingKey": "support_email",
+      "settingValue": "support@sagheri.com",
+      "valueType": "STRING",
+      "groupName": "CONTACT"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000003",
+      "settingKey": "support_phone",
+      "settingValue": "+962 XX XXX XXXX",
+      "valueType": "STRING",
+      "groupName": "CONTACT"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000006",
+      "settingKey": "supported_locales",
+      "settingValue": "ar,en",
+      "valueType": "STRING",
+      "groupName": "REGIONAL"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000001",
+      "settingKey": "website_name",
+      "settingValue": "صغيري",
+      "valueType": "STRING",
+      "groupName": "GENERAL"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000010",
+      "settingKey": "whatsapp_number",
+      "settingValue": "+962 7x xxx xxxx",
+      "valueType": "STRING",
+      "groupName": "CONTACT"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000011",
+      "settingKey": "working_hours_ar",
+      "settingValue": "السبت - الخميس، 9 صباحا - 6 مساء",
+      "valueType": "STRING",
+      "groupName": "CONTACT"
+    },
+    {
+      "id": "33000000-0000-0000-0000-000000000012",
+      "settingKey": "working_hours_en",
+      "settingValue": "Saturday - Thursday, 9 AM - 6 PM",
+      "valueType": "STRING",
+      "groupName": "CONTACT"
+    }
+  ]
+}

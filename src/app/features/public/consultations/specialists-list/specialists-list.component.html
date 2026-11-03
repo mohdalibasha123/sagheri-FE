@@ -1,0 +1,42 @@
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-title">{{ text('أخصائياتنا', 'Our Specialists') }}</h1>
+    <p class="page-sub">
+      {{ text('فريق من المختصات لدعمك في كل مرحلة من رحلة الأمومة', 'A team of specialists supporting every stage of motherhood') }}
+    </p>
+  </div>
+</div>
+
+<section class="specialists-page">
+  <div class="container">
+    <div class="specialists-grid">
+      @for (sp of specialists; track sp.id) {
+        <div class="specialist-card">
+          <div class="sp-avatar" [style.background]="sp.bgColor">
+            <span>{{ sp.initials }}</span>
+          </div>
+          <h2 class="sp-name">{{ text(sp.name, sp.nameEn) }}</h2>
+          <p class="sp-title">{{ text(sp.title, sp.titleEn) }}</p>
+          <p class="sp-bio">{{ text(sp.bio, sp.bioEn) }}</p>
+          <div class="sp-tags">
+            @for (t of (isEnglish() ? sp.tagsEn : sp.tags); track t) {
+              <span class="tag">{{ t }}</span>
+            }
+          </div>
+          <div class="sp-types">
+            <p class="types-label">{{ text('أنواع الاستشارات:', 'Consultation types:') }}</p>
+            <div class="types-list">
+              @for (ct of (isEnglish() ? sp.consultationTypesEn : sp.consultationTypes); track ct) {
+                <span class="type-chip">{{ ct }}</span>
+              }
+            </div>
+          </div>
+          <a [routerLink]="['/consultations/book', sp.id]" class="btn-book">
+            {{ text('احجزي استشارة مع', 'Book with') }} {{ text(sp.name, sp.nameEn) }}
+          </a>
+          <a [routerLink]="['/specialists', sp.id]" class="link-profile">{{ text('عرض الملف الشخصي', 'View profile') }}</a>
+        </div>
+      }
+    </div>
+  </div>
+</section>

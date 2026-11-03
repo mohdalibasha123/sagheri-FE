@@ -1,0 +1,63 @@
+// ─── Color Tokens ───────────────────────────────────────────────────────────
+:root {
+  --sagheri-bg: #fdfbf5;
+  --sagheri-card: #fff8ee;
+  --sagheri-primary: #ad6f5f;
+  --sagheri-primary-dark: #8f5647;
+  --sagheri-primary-light: #d69a73;
+  --sagheri-secondary: #63a39e;
+  --sagheri-secondary-dark: #477c78;
+  --sagheri-text: #5d3f33;
+  --sagheri-muted: #8a6d5e;
+  --sagheri-border: #e5d6c8;
+  --sagheri-gold: #b68a4a;
+  --sagheri-success: #1f5f0f;
+  --sagheri-course: #006b5c;
+  --sagheri-consultation: #8b2f16;
+  --sagheri-dark-block: #3f403b;
+  --sagheri-danger: #b3261e;
+  --sagheri-warning: #c77b00;
+  --sagheri-info: #2f6f9f;
+  --sagheri-white: #ffffff;
+  --sagheri-black: #1e1e1e;
+
+  // ─── Spacing Tokens ─────────────────────────────────────────────────────
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  // ─── Radius Tokens ──────────────────────────────────────────────────────
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-pill: 999px;
+
+  // ─── Shadow Tokens ──────────────────────────────────────────────────────
+  --shadow-soft: 0 12px 30px rgba(93, 63, 51, 0.12);
+  --shadow-card: 0 8px 24px rgba(93, 63, 51, 0.1);
+  --shadow-button: 0 4px 12px rgba(173, 111, 95, 0.3);
+  --shadow-modal: 0 24px 60px rgba(93, 63, 51, 0.22);
+
+  // ─── Layout Tokens ──────────────────────────────────────────────────────
+  --container-max: 1180px;
+  --admin-sidebar-width: 280px;
+  --header-height: 72px;
+  --mobile-bottom-nav-height: 72px;
+
+  // ─── Z-index Scale ──────────────────────────────────────────────────────
+  --z-dropdown: 100;
+  --z-nav: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}

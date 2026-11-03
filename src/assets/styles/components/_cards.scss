@@ -1,0 +1,19 @@
+.sagheri-card {
+  background: var(--sagheri-card);
+  border: 1px solid var(--sagheri-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: var(--shadow-soft);
+  }
+}
+
+.sagheri-card-flat {
+  background: var(--sagheri-card);
+  border: 1px solid var(--sagheri-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+}

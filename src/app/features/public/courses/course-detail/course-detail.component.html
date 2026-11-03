@@ -1,0 +1,67 @@
+<div class="course-detail-page">
+  <div class="container">
+    <div class="video-preview" [style.background]="course.gradient">
+      <div class="video-play-btn" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="28" height="28"><polygon points="5,3 19,12 5,21" fill="white"/></svg>
+      </div>
+      <div class="video-badge">{{ text('معاينة مجانية - الدرس الأول', 'Free preview - first lesson') }}</div>
+    </div>
+
+    <div class="detail-layout">
+      <div class="detail-main">
+        <h1 class="course-title">{{ text(course.title, course.titleEn) }}</h1>
+        <div class="course-meta-row">
+          <span class="stars-row">★★★★★ {{ course.rating }} ({{ course.reviews }} {{ text('تقييم', 'reviews') }})</span>
+          <span class="meta-sep">•</span>
+          <span>{{ text(course.duration, course.durationEn) }}</span>
+          <span class="meta-sep">•</span>
+          <span>{{ course.lessons }} {{ text('دروس', 'lessons') }}</span>
+        </div>
+        <p class="course-desc">{{ text(course.desc, course.descEn) }}</p>
+
+        <div class="outcomes-section">
+          <h2 class="section-heading">{{ text('ماذا ستتعلمين؟', 'What you will learn') }}</h2>
+          <div class="outcomes-grid">
+            @for (o of (isEnglish() ? course.outcomesEn : course.outcomes); track o) {
+              <div class="outcome-item"><span>✓</span><span>{{ o }}</span></div>
+            }
+          </div>
+        </div>
+
+        <div class="lessons-section">
+          <h2 class="section-heading">{{ text('محتوى الكورس', 'Course content') }}</h2>
+          @for (lesson of lessons; track lesson.title; let i = $index) {
+            <div class="lesson-item" [class.open]="openLesson() === i" (click)="toggleLesson(i)">
+              <div class="lesson-header">
+                <div class="lesson-number">{{ i + 1 }}</div>
+                <span class="lesson-title">{{ text(lesson.title, lesson.titleEn) }}</span>
+                <span class="lesson-badge" [class.free]="lesson.free">{{ lesson.free ? text('مجاني', 'Free') : '🔒' }}</span>
+                <span class="lesson-dur">{{ text(lesson.duration, lesson.durationEn) }}</span>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="detail-sidebar">
+        <div class="price-card">
+          <div class="price-display">
+            <span class="price-num">{{ course.price }}</span>
+            <span class="price-cur">{{ text(course.currency, course.currencyEn) }}</span>
+          </div>
+          <a [routerLink]="['/checkout/course', course.id]" class="btn-buy">{{ text('اشتركي الآن', 'Subscribe Now') }}</a>
+          <a routerLink="/courses" class="btn-back">{{ text('العودة للكورسات', 'Back to courses') }}</a>
+          <div class="card-includes">
+            <p class="includes-title">{{ text('يشمل الكورس:', 'Course includes:') }}</p>
+            <ul>
+              <li>{{ course.lessons }} {{ text('دروس فيديو', 'video lessons') }}</li>
+              <li>{{ text(course.duration, course.durationEn) }} {{ text('محتوى', 'content') }}</li>
+              <li>{{ text('وصول مدى الحياة', 'Lifetime access') }}</li>
+              <li>{{ text('شهادة إتمام', 'Completion certificate') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

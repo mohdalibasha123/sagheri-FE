@@ -1,13 +1,12 @@
 node_modules
 dist
 .angular
-.vscode
-.idea
 .git
 .gitignore
 Dockerfile
 README.md
-project_details
-.angular-dev-server*.log
 npm-debug.log
 coverage
+.vscode
+.idea
+project_details

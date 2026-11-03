@@ -1,0 +1,40 @@
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-title">{{ text('كورساتنا', 'Our Courses') }}</h1>
+    <p class="page-sub">
+      {{ text('برامج تعليمية متخصصة للأمهات في كل مرحلة من مراحل الأمومة', 'Specialized learning programs for mothers at every stage') }}
+    </p>
+  </div>
+</div>
+
+<section class="courses-page">
+  <div class="container">
+    <div class="courses-grid">
+      @for (course of courses; track course.id) {
+        <div class="course-card">
+          <div class="course-thumb" [style.background]="course.gradient">
+            <span class="thumb-icon">{{ text(course.badge, course.badgeEn) }}</span>
+          </div>
+          <div class="course-body">
+            <h3 class="course-title">{{ text(course.title, course.titleEn) }}</h3>
+            <p class="course-desc">{{ text(course.desc, course.descEn) }}</p>
+            <div class="course-meta">
+              <span class="chip">{{ text(course.duration, course.durationEn) }}</span>
+              <span class="chip">{{ course.lessons }} {{ text('دروس', 'lessons') }}</span>
+            </div>
+            <div class="course-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-num">{{ course.rating }}</span>
+            </div>
+            <div class="price-row">
+              <span class="price-num">{{ course.price }}</span>
+              <span class="price-cur">{{ text(course.currency, course.currencyEn) }}</span>
+            </div>
+            <a [routerLink]="['/courses', course.slug]" class="btn-subscribe">{{ text('اشتركي الآن', 'Subscribe Now') }}</a>
+            <a [routerLink]="['/courses', course.slug]" class="link-detail">{{ text('عرض محتوى الكورس', 'View course content') }}</a>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
